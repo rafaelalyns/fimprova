@@ -25,7 +25,10 @@ public class GenericTask {
         genericPage.getAdicionar().click();
         genericPage.getAdicionarNome().sendKeys("Receita");
         genericPage.getBotaoSalvarConta().click();
-       
+        genericPage.getBotaoContas().click();
+        genericPage.getAdicionar().click();
+        genericPage.getAdicionarNome().sendKeys("Despesa");
+        genericPage.getBotaoSalvarConta().click();
     }
 }
 
